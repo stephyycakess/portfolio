@@ -1,0 +1,35 @@
+.jumbotron {
+    background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url("../portfolio/img/pinksky.png");
+    color:#fff;
+}
+btn-primary {
+    background-color:pink;
+    border-color:pink;
+}
+.btn-primary:hover {
+    background-color: pink;
+    border-color: #fff;
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.banner {
+    text-align: center;
+}
+.bio{
+    border: 1px solid black
+}
+.symbols {
+    min-width: 150px;
+}
+  
