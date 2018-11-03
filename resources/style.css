@@ -1,21 +1,19 @@
 .jumbotron {
     background:
-    /* top, transparent red, faked with gradient */
-    linear-gradient(
-      rgba(255, 0, 0, 0.45),
-      rgba(255, 0, 0, 0.45)
-    ),
     /* bottom, image */
     url("../resources/img/pinksky.png");
-    color:#fff;
+    color:black;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-btn-primary {
-    background-color:pink;
-    border-color:pink;
+.btn-primary {
+    color: #fff;
+    background-color: #C1A1A6;
+    border-color: #C1A1A6;
 }
 .btn-primary:hover {
     background-color: pink;
-    border-color: #fff;
+    border-color: #fff; 
 }
 @media screen and (max-width: 600px) {
     body {
@@ -32,4 +30,42 @@ btn-primary {
 .symbols {
     min-width: 150px;
 }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
   
+font-family: adobe-garamond-pro, serif;
+
+font-weight: 400;
+
+font-style: italic;
