@@ -63,9 +63,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     padding: 20px;
 }
-  
-font-family: adobe-garamond-pro, serif;
-
-font-weight: 400;
-
-font-style: italic;
+@media (min-width: 1000px) {
+   .description {   
+   height: 250px;    
+   }
+  } 
